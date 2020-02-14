@@ -1,4 +1,47 @@
-body{
-    background: rgb(51, 181, 81);
-    
+body {
+    background:#37e8dc;
+}
+
+/*
+    Elements: Page
+    ---
+    Default markup for page level elements
+*/
+
+html {
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: "Helvetica Neue", Helvetica, arial, sans-serif;
+    padding:24px 24px 0;
+    color:rgb(48, 48, 48);
+}
+
+/*
+ * Remove text-shadow in selection highlight:
+ * https://twitter.com/miketaylr/status/12228805301
+ *
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+    background-color:#44C8F5;
+    color: white;
+    text-shadow:none;
+}
+
+::selection{
+    background-color:#44C8F5;
+    color: white;
+    text-shadow:none;
+}
+
+/*
+    Elements: Images
+    ---
+    Default markup for images to make them responsive
+*/
+
+img {
+    max-width:100%;
+    vertical-align: top;
 }
